@@ -86,7 +86,7 @@ h1, h2, h3, p {
     align-items: center;
 }
 
-.carent::after {
+.page-link.current::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -95,8 +95,9 @@ h1, h2, h3, p {
     width: 100%;
     height: 4px; 
     border-radius: 2px; 
-    color: #2196F3;  
+    background-color: #2196F3;  
 }
+
 .site-nav .item:not(:last-child),
 .site-list .item:not(:last-child) {
       margin-right: 50px;
