@@ -198,6 +198,7 @@ img {
     text-align: center;
 }
 .hero-button {   
+    position: ;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -218,8 +219,23 @@ img {
 .site-nav .link.current {
     color: var(--accent-text);
 }
-.hero-btn {
-    
+.baсkdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 1024px;
+    background-color: rgba(47, 48, 58, 0.4),
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 528px;
+    height: 581px;
+    background-color: var(--bgr-color);
 }
      /*Advantage*/
 .advantages-title {
