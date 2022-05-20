@@ -218,7 +218,9 @@ img {
 .site-nav .link.current {
     color: var(--accent-text);
 }
-       
+.hero-btn {
+    
+}
      /*Advantage*/
 .advantages-title {
     margin-top: 0px;
