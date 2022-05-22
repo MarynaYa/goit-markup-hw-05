@@ -117,8 +117,7 @@ h1, h2, h3, p {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none; 
-
-    transition-property: color;
+   
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -126,14 +125,16 @@ h1, h2, h3, p {
 .site-nav a:hover, .site-nav a:focus, .site-nav a.current {
     color: var(--accent-text);   
 }
+.site-list a {
+    color: var(--text-color)
+}
 .site-list a:hover, .site-list a:focus {
     color: var(--accent-text);   
 }
 .contact-icon {
     fill: var(--text-color);
     margin-right: 10px;
-
-    transition-property: fill;
+  
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -143,7 +144,7 @@ h1, h2, h3, p {
  }
 .site-list {
     margin-left: auto;
-    list-style: none;
+    list-style: none;    
 }
 
 /*main*/
@@ -227,8 +228,8 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1600px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
     background-color: rgba(47, 48, 58, 0.4),
 }
 .baсkdrop.is-hidden {
@@ -261,6 +262,7 @@ img {
     height: 30px;
     border: 1px solid #AFB1B8;     
     border-radius: 50%; 
+    cursor: pointer;
 }
      /*Advantage*/
 .advantages-title {
@@ -342,7 +344,6 @@ img {
     font-weight: 700;  
     text-align: center;
     text-transform: uppercase;
-
 }
 
      /*Team*/
@@ -418,13 +419,11 @@ img {
     margin: 0;   
     width: 44px;
     height: 44px;
-     background-color: var(--bgr-color);     
-     border-radius: 50%;  
-
-     transition-property: background-color;
-     transition-property: border;
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     transition-duration: 250ms;
+    background-color: var(--bgr-color);     
+    border-radius: 50%;  
+   
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .cosial-link:hover, .cosial-link:focus {
     background-color: var(--accent-text);
@@ -466,7 +465,6 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
-    transition-property: border-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -480,8 +478,7 @@ img {
 .clients-icon {
     fill: #AFB1B8;
     margin: 0;
-
-    transition-property: fill;
+   
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms
 }
@@ -626,9 +623,8 @@ img {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 50px;
-    padding: 0;  
-    
-    transition-property: background-color ;
+    padding: 0;      
+  
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -655,7 +651,6 @@ img {
     line-height: 1.7;   
     text-align: center;
 
-    transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -676,9 +671,8 @@ img {
     height: 398px;
     margin-left: 0;
     margin-right: 30px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;     
     
-    transition-property: box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
