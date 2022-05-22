@@ -376,7 +376,7 @@ img {
     list-style: none;
 }
 .team-list:last-child {
-    margin-right: 0 auto;
+    margin-right: 0;
 }
 .title-text {
     padding-top: 30px;
